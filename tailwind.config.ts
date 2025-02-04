@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bgBlue: "#338DE9",
+        bgDarkBlue: "#0067CF",
       },
     },
   },

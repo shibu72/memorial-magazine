@@ -1,0 +1,74 @@
+{
+  "imageCardData": [
+    {
+      "name": "David Stanly",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/1.png"
+    },
+    {
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/2.png"
+    },
+    {
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/3.png"
+    },
+    {
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/4.png"
+    },
+    {
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/5.png"
+    },
+    {
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/6.png"
+    }
+  ],
+
+  "cardData": [
+    {
+      "title": "All People Memorial Moments",
+      "description": "Memorial Moments Magazine People Stories section serves as a platform to celebrate the diverse, touching, and impactful narratives of individuals, fostering connection and empathy among readers through shared human experiences.",
+      "image": "/assets/7.png"
+    },
+    {
+      "title": "Veterans Memorial Moments",
+      "description": "This specialized section within Memorial Moments Magazine serves as a tribute to the dedicated individuals who serve or have served in uniformed professions, offering a platform to honor their experiences, sacrifices, and resilience while fostering understanding and appreciation among readers.",
+      "image": "/assets/5.png"
+    },
+    {
+      "title": "Pet Memorial Moments",
+      "description": "This Pets Stories section within Memorial Moments Magazine aims to celebrate the joy, companionship, and profound connections that people experience with their pets. It provides a platform for readers to share their stories, offer support, and find solace in the shared experiences of pet ownership and companionship.",
+      "image": "/assets/8.png"
+    }
+  ],
+  "teamData": [
+    {
+      "name": "jessy roy",
+      "position": "ceo",
+      "image": "/assets/team1.jpeg"
+    },
+    {
+      "name": "kazi fahim",
+      "position": "director",
+      "image": "/assets/team2.jpeg"
+    },
+    {
+      "name": "daizy neo",
+      "position": "manager",
+      "image": "/assets/team3.jpeg"
+    },
+    {
+      "name": "jessy roy",
+      "position": "founder",
+      "image": "/assets/team4.jpeg"
+    }
+  ]
+}
