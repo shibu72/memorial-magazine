@@ -1,49 +1,151 @@
 {
   "imageCardData": [
     {
+      "id": 1,
       "name": "David Stanly",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/1.png"
     },
     {
+      "id": 2,
       "name": "Ellenor Stout",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/2.png"
     },
     {
+      "id": 3,
       "name": "Ellenor Stout",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/3.png"
     },
     {
+      "id": 4,
       "name": "Ellenor Stout",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/4.png"
     },
     {
+      "id": 5,
       "name": "Ellenor Stout",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/5.png"
     },
     {
+      "id": 6,
       "name": "Ellenor Stout",
       "date": "August 10, 1945 - July 08, 2019",
       "url": "/assets/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/9.png"
+    },
+    {
+      "id": 10,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/10.png"
+    },
+    {
+      "id": 11,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/11.png"
+    },
+    {
+      "id": 12,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/12.png"
+    },
+    {
+      "id": 13,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/13.png"
+    },
+    {
+      "id": 14,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/14.png"
+    },
+    {
+      "id": 15,
+      "name": "Ellenor Stout",
+      "date": "August 10, 1945 - July 08, 2019",
+      "url": "/assets/15.png"
     }
   ],
 
   "cardData": [
     {
+      "id": 1,
       "title": "All People Memorial Moments",
       "description": "Memorial Moments Magazine People Stories section serves as a platform to celebrate the diverse, touching, and impactful narratives of individuals, fostering connection and empathy among readers through shared human experiences.",
-      "image": "/assets/7.png"
+      "image": "/assets/7.png",
+      "details": [
+        {
+          "head": "People Stories",
+          "para": "At All People Stories, we believe every life is a tapestry of unique moments, experiences, and connections. Our Funeral Memorial Moments services are dedicated to honoring these stories and creating heartfelt tributes to cherish the memory of your loved ones."
+        },
+        {
+          "head": "Story Curation and Publication",
+          "para": "Offering a platform for individuals to submit their personal stories—accounts of loss, resilience, remembrance, or impactful life experiences. The service involves curating these stories for publication in the magazine, either in print or digital formats."
+        },
+        {
+          "head": "Professional Storytelling Assistance",
+          "para": "Providing support to individuals who wish to share their narratives but may require assistance in crafting their stories. This service could involve working with professional writers or editors to help refine and present the stories effectively."
+        },
+        {
+          "head": "Interviews and Profile Features",
+          "para": "Conducting interviews or profiles of individuals with remarkable or inspiring life stories, capturing their experiences, insights, and journeys for publication in Memorial Moments Magazine."
+        },
+        {
+          "head": "Diverse Content Categories",
+          "para": "Offering a diverse range of content categories within the 'People Stories' section, such as tales of overcoming challenges, honoring loved ones, celebrating life milestones, or anecdotes of resilience."
+        },
+        {
+          "head": "Interactive and Multimedia Content",
+          "para": "Incorporating multimedia elements like videos, audio clips, or visual presentations to enhance the storytelling experience and engage readers on multiple levels."
+        },
+        {
+          "head": "Sensitive and Respectful Approach",
+          "para": "Ensuring a sensitive and respectful approach when handling personal narratives, particularly those related to loss or sensitive topics. This includes obtaining consent, maintaining confidentiality, and honoring the authenticity of each story."
+        },
+        {
+          "head": "Engagement and Community Building",
+          "para": "Creating a community around People Stories through events, forums, or reader-contributed content. This fosters a sense of belonging and shared experiences among readers."
+        },
+        {
+          "head": "Online Platforms and Archives",
+          "para": "Providing an online platform or archive dedicated to People Stories, allowing readers to access a collection of narratives and fostering ongoing engagement with the content."
+        }
+      ]
     },
+
     {
+      "id": 2,
       "title": "Veterans Memorial Moments",
       "description": "This specialized section within Memorial Moments Magazine serves as a tribute to the dedicated individuals who serve or have served in uniformed professions, offering a platform to honor their experiences, sacrifices, and resilience while fostering understanding and appreciation among readers.",
       "image": "/assets/5.png"
     },
     {
+      "id": 3,
       "title": "Pet Memorial Moments",
       "description": "This Pets Stories section within Memorial Moments Magazine aims to celebrate the joy, companionship, and profound connections that people experience with their pets. It provides a platform for readers to share their stories, offer support, and find solace in the shared experiences of pet ownership and companionship.",
       "image": "/assets/8.png"
@@ -69,6 +171,86 @@
       "name": "jessy roy",
       "position": "founder",
       "image": "/assets/team4.jpeg"
+    }
+  ],
+
+  "pricingData": [
+    {
+      "id": 1,
+      "title": "Quarter Page",
+      "price": 99,
+      "time": "month",
+      "stories": "03 Photo Stories",
+      "features": [
+        "All People Stories",
+        "Veteran Stories",
+        "Pets Stories",
+        "Upload 3 photos on one story",
+        "Post story in between 1500 words",
+        "Post 1 stories at a time"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Half a Page",
+      "price": 250,
+      "time": "6 month",
+      "stories": "04 Photo Stories",
+      "features": [
+        "All People Stories",
+        "Veteran Stories",
+        "Pets Stories",
+        "Upload 4 photos on one story",
+        "Post story in between 2500 words",
+        "Post 1 stories at a time"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Full Page",
+      "price": 500,
+      "time": "year",
+      "stories": "06 Photo Stories",
+      "features": [
+        "All People Stories",
+        "Veteran Stories",
+        "Pets Stories",
+        "Upload 6 photos on one story",
+        "Post story in between 5500 words",
+        "Post 1 stories at a time"
+      ]
+    }
+  ],
+  "blogData": [
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog1.jpeg",
+      "date": "25 Dec. 2023"
+    },
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog2.jpeg",
+      "date": "25 Dec. 2023"
+    },
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog3.png",
+      "date": "25 Dec. 2023"
+    },
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog4.jpeg",
+      "date": "25 Dec. 2023"
+    },
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog5.jpeg",
+      "date": "25 Dec. 2023"
+    },
+    {
+      "title": "Helping close a Friend in Grief Get Started with a Beautiful Template",
+      "url": "/assets/blog6.jpeg",
+      "date": "25 Dec. 2023"
     }
   ]
 }

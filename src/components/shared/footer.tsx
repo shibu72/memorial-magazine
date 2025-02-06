@@ -2,7 +2,6 @@ import React from "react";
 import { navLink } from "./navbar";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/assets/logo.png";
 import Downloadbutton from "../ui/downloadbutton";
 interface itemType {
   url: string;
@@ -15,7 +14,12 @@ export default function Footer() {
       <div className="bg-[#2381E5] text-white">
         <div className="flex justify-evenly items-start w-full pt-20">
           <div className="grid justify-center gap-4 w-[404.29]">
-            <Image width={212.5} height={100} src={logo} alt="logo" />
+            <Image
+              width={212.5}
+              height={100}
+              src={"/assets/logo.png"}
+              alt="logo"
+            />
             <p className="text-base">
               We understand every funeral is different because every person
               isunique and each family situation is different.
@@ -59,8 +63,10 @@ export default function Footer() {
 
         <div className="flex justify-evenly border-t py-6 mt-10 border-[#FFFFFF69]">
           <p className="text-lg font-normal">
-            Privacy Policy / Terms & Conditions{" "}
+            <Link href={"/pages/privacyPolicy"}>Privacy Policy </Link> /{" "}
+            <Link href={"/pages/termsConditions"}>Terms & Conditions</Link>
           </p>
+
           <p className="text-base font-normal">
             memorial_moment © 2023 All Rights Reserved
           </p>

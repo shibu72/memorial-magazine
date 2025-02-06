@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-[poppins] antialiased bg-white text-black scroll-smooth`}
+        className={`font-[poppins] antialiased bg-[#F4FAFF] text-black scroll-smooth`}
       >
         <Navbar />
         {children}

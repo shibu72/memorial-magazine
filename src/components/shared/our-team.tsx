@@ -7,10 +7,10 @@ interface teamType {
   name: string;
   position: string;
 }
-export default function OurTeam() {
+export default function OurTeam({ className }: { className: string }) {
   return (
     <>
-      <div className="bg-blue-50 py-24">
+      <div className={`bg-blue-50 py-24 ${className}`}>
         <SectionTitle className="m-auto w-fit">Our Team</SectionTitle>
         <div className="flex flex-row justify-center items-center gap-6 mt-20">
           {data.teamData.map((team: teamType, index) => (

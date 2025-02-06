@@ -1,10 +1,10 @@
 import React from "react";
 import SectionTitle from "../ui/sectionTitle";
 import Card from "../ui/card";
-export default function QualityServices() {
+export default function QualityServices({ className }: { className: string }) {
   return (
     <>
-      <div className="bg-blue-50">
+      <div className={`bg-blue-50 ${className}`}>
         <div className="py-20">
           <div className="w-[800px] m-auto mb-20 text-center">
             <SectionTitle className="">Quality Services</SectionTitle>

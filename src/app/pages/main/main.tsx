@@ -1,11 +1,13 @@
-import mobile from "../../../../public/assets/Mobile.png";
 import Downloadbutton from "@/components/ui/downloadbutton";
 import Image from "next/image";
 import React from "react";
 export default function Main() {
   return (
     <>
-      <div className="bg-gradient-to-r from-[#0873DE] to-[#01274F] h-dvh flex justify-evenly items-center text-white">
+      <div
+        style={{ backgroundImage: "url(/assets/bg.png)" }}
+        className="bg-no-repeat bg-cover bg-gradient-to-r from-[#0873DE] to-[#01274F] h-dvh flex justify-evenly items-center text-white"
+      >
         <div className="grid gap-[60px] w-[700px]">
           <div className="grid justify-center items-center gap-3">
             <p className="text-[32px] font-semibold">
@@ -26,7 +28,12 @@ export default function Main() {
           </div>
         </div>
         <div>
-          <Image width={533.71} height={708} src={mobile} alt="" />
+          <Image
+            width={533.71}
+            height={708}
+            src={"/assets/Mobile.png"}
+            alt=""
+          />
         </div>
       </div>
     </>

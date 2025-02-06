@@ -1,9 +1,6 @@
 import React from "react";
 import SectionTitle from "../ui/sectionTitle";
 import Image from "next/image";
-import Icon from "@/../public/assets/Icon.png";
-import group from "@/../public/assets/Group.png";
-import mobile11 from "@/../public/assets/Mobile 1 1.png";
 export default function System() {
   return (
     <>
@@ -22,7 +19,12 @@ export default function System() {
 
           <div className="grid gap-6">
             <div className="flex flex-row justify-start items-start gap-6">
-              <Image width={22.17} height={28.5} src={Icon} alt="icon" />
+              <Image
+                width={22.17}
+                height={28.5}
+                src={"/assets/Icon.png"}
+                alt="icon"
+              />
               <div className="grid gap-4 ">
                 <h4 className="text-2xl font-semibold">Pre-planning</h4>
                 <p className="text-xl font-normal text-[#717070]">
@@ -32,7 +34,12 @@ export default function System() {
               </div>
             </div>
             <div className="flex flex-row justify-start items-start gap-6">
-              <Image width={28.11} height={28} src={group} alt="group" />
+              <Image
+                width={28.11}
+                height={28}
+                src={"/assets/Group.png"}
+                alt="group"
+              />
               <div className="grid gap-4 ">
                 <h4 className="text-2xl font-semibold">Quality services</h4>
                 <p className="text-xl font-normal text-[#717070]">
@@ -49,7 +56,7 @@ export default function System() {
             width={500}
             height={500}
             className="w-full"
-            src={mobile11}
+            src={"/assets/Mobile 1 1.png"}
             alt="mobile"
           />
         </div>
