@@ -9,13 +9,14 @@ interface storieType {
   name: string;
   date: string;
 }
-export default function Page({
+export default async function Page({
   params,
 }: {
-  params: { storieDetails: string };
+  params: Promise< { storieDetails: string }>
 }) {
+  const paramId = (await params).storieDetails
   const storie: storieType | undefined = data.imageCardData.find(
-    (s) => s.id === parseInt(params.storieDetails),
+    (s) => s.id === parseInt(paramId),
   );
   return (
     <>
