@@ -19,13 +19,14 @@ interface serviceType {
   description: string;
   details?: detailsType[];
 }
-export default function Page({
+export default async function Page({
   params,
 }: {
-  params: { serviceDetails: string };
+  params: Promise< { serviceDetails: string }>
 }) {
+  const paramId = (await params).serviceDetails; 
   const service: serviceType | undefined = data.cardData.find(
-    (s) => s.id === parseInt(params.serviceDetails),
+    (s) => s.id === parseInt(paramId),
   );
   console.log(params);
   return (
